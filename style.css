@@ -1,0 +1,289 @@
+body,html{
+    height: 100%;
+    margin:0px;
+    padding:0;
+    background-color: black;
+}
+
+.home{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg") ;
+    background-size:cover;
+    background-repeat: no-repeat;   
+    height:100%;
+    background-position: center;
+}
+
+.nav{
+    position: absolute;
+    margin: auto;
+    width: 77%;
+    right:0;
+    left:0;
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+}
+
+.logo{
+    width:148px;
+}
+
+.left-nav{
+    display:flex;
+    gap:20px;
+}
+
+.btn-english{
+    color:white;
+    /* background-color: rgba(23, 22, 22, 0.728); */
+    background: transparent;
+    width: 125px;
+    border-radius: 5px;
+    padding:6px 13px;
+    border: 0.1px solid rgba(255, 255, 255, 0.584);
+    text-align: center;
+}
+
+.flex-english{
+    display:flex;
+    gap:9px;
+     font-weight: 4px;
+     align-items: center; 
+}
+
+.english{
+    font-size: 17px;
+}
+
+.btn-sign-in{
+    width:83px;
+    font-size: 14px;
+    background-color: #E50914;
+    border-radius: 5px;
+    padding:4px 16px;
+    color: white;
+    border:none;
+    align-items: center;
+}
+
+.btn-sign-in:hover{
+
+    background-color: #b30009;
+    cursor: pointer;
+}
+
+.content{
+    width: 73%;
+    position: absolute;
+    top:40%;
+    bottom:40%;
+    left: 13%;
+    right:13%;
+}
+
+.heading1{
+    color:white;
+    margin: auto;
+    font-size: 41px;
+    width: 100%;
+    text-align: center;
+    text-wrap: wrap;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+
+.heading2{
+    color: white;
+    font-size: 24px;
+    width:100%;
+    text-align: center;
+    text-wrap: wrap;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 14px;
+}
+
+.heading3{
+    text-align: center;
+    color:white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+}
+
+.email-input-bar{
+    display: flex;
+    gap: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-input{
+    width:355px;
+    padding:16px 16px;
+    background: transparent;
+    border: 1px solid rgba(211, 203, 203, 0.436);
+    border-radius: 3px;
+    font-size: 17px;
+}
+
+.email-input:focus{
+    border: 1px solid white;
+}
+
+.btn-getstarted{
+    width:200px;
+    background-color: #E50914;
+    display:flex;
+    padding:15px 24px;
+    border:none;
+    border-radius: 4px;
+    font-size:23px;
+    font-weight: 14px;
+    gap:10px;
+    align-items: center ;
+    color:white;    
+}
+
+.btn-getstarted:hover{
+    background-color: #b30009;
+    cursor: pointer;
+}
+
+.arrow{
+    height: 17px;
+}
+
+.line{
+    height:8px;
+    background-color: rgb(52, 51, 51);
+    width:100%; 
+}
+
+.page2{
+    display:flex;
+    align-items: center;
+    padding:  45px 10%;
+    gap:20px;
+}
+
+.image-page2{
+    background-image: url("https://i.ytimg.com/vi/2jPdejek5QA/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: 505px;
+    background-position: center;
+}
+
+
+.image-page3{
+    position: relative;
+
+}
+
+
+.left-align{
+    text-align: left;
+}
+
+.mobile-image{
+    position:relative;
+}
+
+
+.overlay{
+    height:75px;
+    width:300px;
+    border-radius: 9px;
+    background-color: rgba(0, 0, 0, 0.89);
+    color:white;
+    display:flex;
+    align-items: center;
+    border: 1px solid rgba(211, 203, 203, 0.436);
+    padding: 10px 15px;
+    justify-content: space-between;
+    position:absolute;
+    bottom:60px;
+    left:150px;
+}
+
+.overlay1{
+    height:100%;
+    display:flex;
+    align-items: center;
+    gap:17px;
+}
+
+.banner{
+    height:100%;
+}
+
+.download-icon{
+    padding:6px;
+}
+
+.downloading{
+    font-size: 14px;
+    color:rgb(0,100,209);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.title{
+    font-family: 'ADLaM Display', cursive;
+}
+
+.tv-image2{
+    background-image: url("https://dnm.nflximg.net/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABSYU9D1vUihV9T-ytOeuk19uG6brgkHBSBpQ4NH9PgkPakFTSwOaXCpjm8Iie9kUuBLJzWrXF5bUBjDSJ9fA1dVoqgUetFXLzbZ9eWaLEj7bh8sz6hzMex1Fsr9VIbJd15VC_Q.jpg?r=545");
+    background-repeat: no-repeat;
+    background-size: 320px;
+    background-position: center;
+}
+
+
+.page6{
+    width:77%;
+    margin: 45px auto;
+}
+
+.page6-heading
+{
+    font-family:'Archivo Black', sans-serif;
+    text-align: center;
+    font-size: 41px;
+}
+
+.btn-dropdown{
+    width:100%;
+    display:flex;
+    align-items: center;
+    padding: 23px 32px;
+    justify-content: space-between;
+    background-color: rgba(45, 45, 45, 0.9);
+    color:white;
+    margin-top:10px;
+    font-size:25px;
+    border:none;
+    cursor:pointer;
+}
+
+.btn-dropdown-info{
+    margin-top:2px;
+    padding:23px 23px;
+    width:fit-content;
+    display:none;
+}
+
+.btn-dropdown:hover{
+    background-color: rgba(72, 70, 70, 0.9);
+}
+
+.btn-dropdown-info:hover{
+    background-color: rgba(45, 45, 45, 0.9);
+}
+.divide{
+    height:20px;    
+}
+
+
+.heading2-font-change{
+    margin-top: 60px;
+    font-size: 20px;
+}
